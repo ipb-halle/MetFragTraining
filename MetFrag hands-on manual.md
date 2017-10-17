@@ -165,7 +165,7 @@ Q8: What has changed compared to the previous run?
 
 Q9: Would the number of references and patents have helped for a metabolomics experiment?
 
-Q10: Investigate the high intensity fragments of the first ranked candidate? Are they plausible compared to fragment structures of other candidates?
+Q10: Investigate the high intensity fragments of the first ranked candidate. Are they plausible compared to fragment structures of other candidates?
 
 <img src="./MetFrag hands-on manual/image3.png" width="539" height="307" />
 
