@@ -19,10 +19,6 @@ Download the file *metfrag\_handson\_data.zip* from the google drive folder
 | ms2\_mz230.1162\_rt10.1.txt                         |
 | retentiontime\_model/rt\_input\_PubChem\_XlogPs.csv |
 
-### 
-
-### 
-
 ### *Step 1 - Run initial MetFrag processing*
 
 *1 a) Retrieve Candidates from database*
@@ -101,18 +97,6 @@ Q3: Looking at the results, what has changed compared to using the monoisotopic 
 
 Q4: Is the molecular formula helpful here?
 
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-
 ### *Step 3 - Run MetFrag adding additional experimental information*
 
 *3 a) Add the retention time data model to the MetFragWeb tool*
@@ -153,10 +137,6 @@ Q6: Use the weight sliders in the “Results” tab. Does it change anything?
 
 Q7: Is the retention time information helpful here?
 
-### 
-
-### 
-
 ### *Step 4 - Run MetFrag adding additional meta information*
 
 *4 a) Add the additional scoring terms*
@@ -189,23 +169,6 @@ Q10: Investigate the high intensity fragments of the first ranked candidate? Are
 
 <img src="./MetFrag hands-on manual/image3.png" width="539" height="307" />
 
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-
-### 
 
 ### *Step 5 - Search in spectral libraries*
 
@@ -222,20 +185,6 @@ Q10: Investigate the high intensity fragments of the first ranked candidate? Are
 **Questions:**
 
 Q11: Investigate the results and compare them to your MetFrag result list. Any conclusions?
-
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-
-### 
 
 ### *Step 6 - Combine Spectra library search and MetFrag*
 
