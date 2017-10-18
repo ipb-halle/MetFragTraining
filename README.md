@@ -37,7 +37,11 @@ Please download the prepared data:
 
 <video controls preload> 
     <source src="media/cast1.webm"></source> 
+    <div><img src="media/image1.png" alt="Retrieve Candidates" /></div>
 </video>
+
+
+---
 
 
 ---
