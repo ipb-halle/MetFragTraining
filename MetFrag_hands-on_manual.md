@@ -1,10 +1,13 @@
-**MetFrag Hands-on - September 25, Monday**
-===========================================
+## MetFrag Hands-on
 
 **Topic:** Using MetFrag for compound identification with MS/MS data and additional information
------------------------------------------------------------------------------------------------
+
+---
 
 In this hands-on session you will learn how to use MetFrag to annotate MS/MS spectra as a first step to identify a molecular structure given MS and MS/MS information. Furthermore, we will use additional experimental and meta data to support a putative identification.
+
+---
+
 
 *Manual*
 --------
