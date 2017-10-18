@@ -28,7 +28,7 @@ Please download the prepared data:
 
 ### *Step 1 - Run initial MetFrag processing*
 
-*1 a) Retrieve Candidates from database*
+#### 1 a) Retrieve Candidates from database
 - visit the MetFragWeb tool in your browser 
 <a href="http://msbi.ipb-halle.de/MetFragBeta" target="_blank">http://msbi.ipb-halle.de/MetFragBeta</a>
 
@@ -52,18 +52,13 @@ Please download the prepared data:
 
 ---
 
-
----
-
-
-
--   MetFrag searches candidates matching the information given by the “Database settings” (here: Neutral Mass and 5 ppm deviation)
-
-<img src="./MetFrag hands-on manual/image23.png" width="476" height="271" />
+- MetFrag searches candidates matching the information given by the “Database settings” (here: Neutral Mass and 5 ppm deviation)
 
 -   after the retrieval you can download the candidate list as CSV or XLS to get a first overview about the retrieved data set
 
-*1 b) Process candidates by performing *in silico* and matching to MS/MS data*
+---
+
+#### 1 b) Process candidates by performing *in silico* and matching to MS/MS data
 
 -   use the “Fragmentation settings” tab to add the given MS2 peak list
 
