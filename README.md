@@ -11,19 +11,16 @@ In this hands-on session you will learn how to use MetFrag to annotate MS/MS spe
 
 ---
 
-
-*Manual*
---------
+### MetFrag webservice workflow
 
 In this example we have extracted a feature from a water (river) sample from a LC-MS/MS measurement with a precursor m/z 230.1162 at retention time 10.1 minutes. The data is acquired on a LTQ Orbitrap XL with a high mass accuracy (&lt;5ppm) in positive ion mode. The adduct type of the selected precursor ion is known as \[M+H\]⁺.
 
-Download the file *metfrag\_handson\_data.zip* from the google drive folder
+Please download the prepared data:
 
-| **Contents**                                        |
-|-----------------------------------------------------|
-| ms1\_mz230.1162\_rt10.1.txt                         |
-| ms2\_mz230.1162\_rt10.1.txt                         |
-| retentiontime\_model/rt\_input\_PubChem\_XlogPs.csv |
+* MS1: [ms1_mz230.1162_rt10.1.txt](metfrag_handson_data/ms1_mz230.1162_rt10.1.txt)
+* MS2: [ms2_mz230.1162_rt10.1.txt](metfrag_handson_data/ms2_mz230.1162_rt10.1.txt)
+
+---
 
 ### *Step 1 - Run initial MetFrag processing*
 
