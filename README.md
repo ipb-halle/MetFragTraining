@@ -70,6 +70,8 @@ Please download the prepared data:
          <img src="media/image3.png" alt="MS2 peak list" />
          <br>
          <img src="media/image4.png" alt="MS2 peak list" />
+	 <br>
+	 <img src="media/image5.png" alt="MS2 peak list" />
     </div>
 </video>
 
@@ -77,22 +79,16 @@ Please download the prepared data:
 
 - MetFrag now generates fragments for each candidate up to the specified tree depth
 - the fragments are mapped to the MS/MS peak list (based on mass) which is used to calculate a score for each candidate
+- after the processing is finished you see the ranked candidates list in the “Results” tab
+- here you have different possibilities:
+    - you can filter candidates by explained peaks
+    - investigate explained fragments and calculated scores for each candidate
+    - download ranked candidate list as CSV or XLS file
 
-<img src="./MetFrag hands-on manual/image28.png" width="512" height="291" />
-
--   after the processing is finished you see the ranked candidates list in the “Results” tab
-
--   here you have different possibilities:
-
-    -   you can filter candidates by explained peaks
-
-    -   investigate explained fragments and calculated scores for each candidate
-
-    -   download ranked candidate list
+---
 
 <img src="./MetFrag hands-on manual/image27.png" width="557" height="317" />
 
--   download the ranked candidate list as CSV or XLS file
 
 **Questions:**
 
