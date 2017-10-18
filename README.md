@@ -2,8 +2,7 @@
 
 **Topic:** Using MetFrag for compound identification with MS/MS data and additional information.
 
-Online training presentation is avalable at https://meier-rene.github.io/MetFragTraining/.
-
+Online training presentation is avalable [here](https://meier-rene.github.io/MetFragTraining/).
 
 ---
 
