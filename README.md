@@ -31,7 +31,6 @@ Please download the prepared data:
 #### 1 a) Retrieve Candidates from database
 - visit the MetFragWeb tool in your browser 
 <a href="http://msbi.ipb-halle.de/MetFragBeta" target="_blank">http://msbi.ipb-halle.de/MetFragBeta</a>
-
 - define database settings to retrieve candidates given the MS1 information:
 	1. use the precursor m/z value and type to calculate the neutral monoisotopic mass
 	2. check mass accuracy
@@ -53,26 +52,31 @@ Please download the prepared data:
 ---
 
 - MetFrag searches candidates matching the information given by the “Database settings” (here: Neutral Mass and 5 ppm deviation)
-
--   after the retrieval you can download the candidate list as CSV or XLS to get a first overview about the retrieved data set
+- after the retrieval you can download the candidate list as CSV or XLS to get a first overview about the retrieved data set
 
 ---
 
-#### 1 b) Process candidates by performing *in silico* and matching to MS/MS data
+#### 1 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
 
--   use the “Fragmentation settings” tab to add the given MS2 peak list
+- use the "Fragmentation settings" tab to add the given MS2 peak list
+- you can visualize the peak list by clicking on the "Show Spectrum" button
+- keep the settings for the *in silico* fragmentation and start the processing by clicking “Process Candidates”
 
-<img src="./MetFrag hands-on manual/image30.png" width="499" height="284" />
+---
 
--   you can visualize the peak list by clicking on the “Show Spectrum” button
+<video controls preload>
+    <source src="media/cast2.webm"></source>
+    <div>
+         <img src="media/image3.png" alt="MS2 peak list" />
+         <br>
+         <img src="media/image4.png" alt="MS2 peak list" />
+    </div>
+</video>
 
-<img src="./MetFrag hands-on manual/image29.png" width="499" height="284" />
+---
 
--   keep the settings for the *in silico* fragmentation and start the processing by clicking “Process Candidates”
-
--   MetFrag now generates fragments for each candidate up to the specified tree depth
-
--   the fragments are mapped to the MS/MS peak list (based on mass) which is used to calculate a score for each candidate
+- MetFrag now generates fragments for each candidate up to the specified tree depth
+- the fragments are mapped to the MS/MS peak list (based on mass) which is used to calculate a score for each candidate
 
 <img src="./MetFrag hands-on manual/image28.png" width="512" height="291" />
 
