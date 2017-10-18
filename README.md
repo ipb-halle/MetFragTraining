@@ -27,12 +27,23 @@ Please download the prepared data:
 
 *1 a) Retrieve Candidates from database*
 - visit the MetFragWeb tool in your browser <a href="http://msbi.ipb-halle.de/MetFragBeta" target="_blank">http://msbi.ipb-halle.de/MetFragBeta</a>
-- at first the database settings need to be defined to retrieve candidates given the MS1 information
-- use the precursor m/z value to calculate the neutral monoisotopic mass
+- define database settings to retrieve candidates given the MS1 information:
+	1. use the precursor m/z value and type to calculate the neutral monoisotopic mass
+	2. check mass accuracy
+	3. select PubChem as compound database
+- start a candidate retrieval by clicking "Retrieve Candidates"
+
+---
+
+<video controls preload> 
+    <source src="media/cast1.webm"></source> 
+</video>
+
+
+---
 
 <img src="./MetFrag hands-on manual/image24.png" width="425" height="243" />
 
--   select PubChem as compound database and start a first candidate retrieval by clicking “Retrieve Candidates”
 
 -   MetFrag searches candidates matching the information given by the “Database settings” (here: Neutral Mass and 5 ppm deviation)
 
