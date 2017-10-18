@@ -2,18 +2,22 @@
 
 **Topic:** Using MetFrag for compound identification with MS/MS data and additional information.
 
-Online training presentation is avalable [here](https://meier-rene.github.io/MetFragTraining/).
+A online training presentation is avalable [here](https://meier-rene.github.io/MetFragTraining/).
 
 ---
 
-In this hands-on session you will learn how to use MetFrag to annotate MS/MS spectra as a first step to identify a molecular structure given MS and MS/MS information. Furthermore, we will use additional experimental and meta data to support a putative identification.
+In this hands-on session you will learn how to use MetFrag to annotate MS/MS spectra as a first 
+step to identify a molecular structure given MS and MS/MS information. Furthermore, we will use
+additional experimental and meta data to support a putative identification.
 
 ---
 
 ### MetFrag webservice workflow
 
-In this example we have extracted a feature from a water (river) sample from a 
-LC-MS/MS measurement with a precursor m/z&nbsp;230.1162 at retention time 10.1&nbsp;minutes. The data is acquired on a LTQ Orbitrap XL with a high mass accuracy (&lt;5ppm) in positive ion mode. The adduct type of the selected precursor ion is known as \[M+H\]⁺.
+In this example we have extracted a feature from a water (river) sample from a LC-MS/MS measurement
+with a precursor m/z&nbsp;230.1162 at retention time 10.1&nbsp;minutes. The data is acquired on a
+LTQ Orbitrap XL with a high mass accuracy (&lt;5ppm) in positive ion mode. The adduct type of the 
+selected precursor ion is known as \[M+H\]⁺.
 
 Please download the prepared data:
 
@@ -25,7 +29,9 @@ Please download the prepared data:
 ### *Step 1 - Run initial MetFrag processing*
 
 *1 a) Retrieve Candidates from database*
-- visit the MetFragWeb tool in your browser <a href="http://msbi.ipb-halle.de/MetFragBeta" target="_blank">http://msbi.ipb-halle.de/MetFragBeta</a>
+- visit the MetFragWeb tool in your browser 
+<a href="http://msbi.ipb-halle.de/MetFragBeta" target="_blank">http://msbi.ipb-halle.de/MetFragBeta</a>
+
 - define database settings to retrieve candidates given the MS1 information:
 	1. use the precursor m/z value and type to calculate the neutral monoisotopic mass
 	2. check mass accuracy
@@ -45,7 +51,6 @@ Please download the prepared data:
 
 ---
 
-<img src="./MetFrag hands-on manual/image24.png" width="425" height="243" />
 
 
 -   MetFrag searches candidates matching the information given by the “Database settings” (here: Neutral Mass and 5 ppm deviation)
