@@ -13,24 +13,22 @@ In this hands-on session you will learn how to use MetFrag to annotate MS/MS spe
 
 ### MetFrag webservice workflow
 
-In this example we have extracted a feature from a water (river) sample from a LC-MS/MS measurement with a precursor m/z 230.1162 at retention time 10.1 minutes. The data is acquired on a LTQ Orbitrap XL with a high mass accuracy (&lt;5ppm) in positive ion mode. The adduct type of the selected precursor ion is known as \[M+H\]⁺.
+In this example we have extracted a feature from a water (river) sample from a 
+LC-MS/MS measurement with a precursor m/z&nbsp;230.1162 at retention time 10.1&nbsp;minutes. The data is acquired on a LTQ Orbitrap XL with a high mass accuracy (&lt;5ppm) in positive ion mode. The adduct type of the selected precursor ion is known as \[M+H\]⁺.
 
 Please download the prepared data:
 
-* MS1: [ms1_mz230.1162_rt10.1.txt](metfrag_handson_data/ms1_mz230.1162_rt10.1.txt)
-* MS2: [ms2_mz230.1162_rt10.1.txt](metfrag_handson_data/ms2_mz230.1162_rt10.1.txt)
+* MS1: <a href="metfrag_handson_data/ms1_mz230.1162_rt10.1.txt" download>ms1_mz230.1162_rt10.1.txt</a>
+* MS2: <a href="metfrag_handson_data/ms2_mz230.1162_rt10.1.txt" download>ms2_mz230.1162_rt10.1.txt</a>
 
 ---
 
 ### *Step 1 - Run initial MetFrag processing*
 
 *1 a) Retrieve Candidates from database*
-
--   visit the MetFragWeb tool in your browser ([*http://msbi.ipb-halle.de/MetFragBeta*](http://msbi.ipb-halle.de/MetFragBeta))
-
--   at first the database settings need to be defined to retrieve candidates given the MS1 information
-
--   use the precursor m/z value to calculate the neutral monoisotopic mass
+- visit the MetFragWeb tool in your browser <a href="http://msbi.ipb-halle.de/MetFragBeta" target="_blank">http://msbi.ipb-halle.de/MetFragBeta</a>
+- at first the database settings need to be defined to retrieve candidates given the MS1 information
+- use the precursor m/z value to calculate the neutral monoisotopic mass
 
 <img src="./MetFrag hands-on manual/image24.png" width="425" height="243" />
 
