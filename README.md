@@ -1,8 +1,8 @@
-# MetFrag Hands-on
+c-ruttkies# MetFrag Hands-on
 
 **Topic:** Using MetFrag for compound identification with MS/MS data and additional information.
 
-A online training presentation is avalable [here](https://meier-rene.github.io/MetFragTraining/).
+A online training presentation is avalable [here](https://c-ruttkies.github.io/MetFragTraining/).
 
 ---
 
