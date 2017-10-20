@@ -1,4 +1,4 @@
-## MetFrag Hands-on
+# MetFrag Hands-on
 
 **Topic:** Using MetFrag for compound identification with MS/MS data and additional information.
 
@@ -12,7 +12,7 @@ additional experimental and meta data to support a putative identification.
 
 ---
 
-### MetFrag webservice workflow
+## MetFrag webservice workflow
 
 In this example we have extracted a feature from a water (river) sample from a LC-MS/MS measurement
 with a precursor m/z&nbsp;230.1162 at retention time 10.1&nbsp;minutes. The data is acquired on a
