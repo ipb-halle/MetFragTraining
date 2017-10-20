@@ -26,9 +26,9 @@ Please download the prepared data:
 
 ---
 
-### *Step 1 - Run initial MetFrag processing*
+## *Step 1 - Run initial MetFrag processing*
 
-#### 1 a) Retrieve Candidates from database
+### 1 a) Retrieve Candidates from database
 - visit the MetFragWeb tool in your browser 
 <a href="http://msbi.ipb-halle.de/MetFragBeta" target="_blank">http://msbi.ipb-halle.de/MetFragBeta</a>
 - define database settings to retrieve candidates given the MS1 information:
