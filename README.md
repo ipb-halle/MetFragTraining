@@ -118,7 +118,7 @@ Q2: What do you think is the correct molecular formula? What else could you do t
 
 ---
 
-###2 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
+### 2 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
 
 -   use the same settings as in 1 b) and process the candidates
 
@@ -132,17 +132,14 @@ Q4: Is the molecular formula helpful here?
 
 ---
 
-### *Step 3 - Run MetFrag adding additional experimental information*
+## *Step 3 - Run MetFrag adding additional experimental information*
 
-*3 a) Add the retention time data model to the MetFragWeb tool*
+### 3 a) Add the retention time data model to the MetFragWeb tool
 
--   adding additional information available from the experimental context is oftentimes helpful to verify a putative identification
-
--   now we want to add retention time as additional experimental information
-
--   there exist different models to predict retention times
-
--   MetFrag includes a linear model that is usually based on a [*logP*](https://en.wikipedia.org/wiki/Partition_coefficient) partition
+- adding additional information available from the experimental context is oftentimes helpful to verify a putative identification
+- now we want to add retention time as additional experimental information
+- there exist different models to predict retention times
+- MetFrag includes a linear model that is usually based on a [*logP*](https://en.wikipedia.org/wiki/Partition_coefficient) partition
 
 coefficient - retention time correlation
 
