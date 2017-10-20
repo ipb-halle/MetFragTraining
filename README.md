@@ -51,7 +51,7 @@ Please download the prepared data:
 
 ---
 
-- MetFrag searches candidates matching the information given by the “Database settings” (here: Neutral Mass and 5 ppm deviation)
+- MetFrag searches candidates matching the information given by the "Database settings" (here: Neutral Mass and 5 ppm deviation)
 - after the retrieval you can download the candidate list as CSV or XLS to get a first overview about the retrieved data set
 
 ---
@@ -60,7 +60,7 @@ Please download the prepared data:
 
 - use the "Fragmentation settings" tab to add the given MS2 peak list
 - you can visualize the peak list by clicking on the "Show Spectrum" button
-- keep the settings for the *in silico* fragmentation and start the processing by clicking “Process Candidates”
+- keep the settings for the *in silico* fragmentation and start the processing by clicking "Process Candidates"
 
 ---
 
@@ -79,7 +79,7 @@ Please download the prepared data:
 
 - MetFrag now generates fragments for each candidate up to the specified tree depth
 - the fragments are mapped to the MS/MS peak list (based on mass) which is used to calculate a score for each candidate
-- after the processing is finished you see the ranked candidates list in the “Results” tab
+- after the processing is finished you see the ranked candidates list in the "Results" tab
 - here you have different possibilities:
     - you can filter candidates by explained peaks
     - investigate explained fragments and calculated scores for each candidate
@@ -96,31 +96,41 @@ Please download the prepared data:
 
 ---
 
-**Questions:**
+*Questions:*
 
 Q1: How many different molecular formulas are present?
 
 Q2: What do you think is the correct molecular formula? What else could you do to verify that besides the given MetFrag results?
 
-### *Step 2 - Run MetFrag processing using molecular formula*
+---
 
-*2 a) Retrieve Candidates from database*
+## *Step 2 - Run MetFrag processing using molecular formula*
+
+### 2 a) Retrieve Candidates from database
 
 -   use the same settings as in 1 a) but add the molecular formula
 
 -   select “Include references” when using PubChem
 
-<img src="./MetFrag hands-on manual/image16.png" width="529" height="301" />
+---
 
-*2 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data*
+<img src="./MetFrag hands-on manual/image16.png"/>
+
+---
+
+###2 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
 
 -   use the same settings as in 1 b) and process the candidates
 
-**Questions:**
+---
+
+*Questions:*
 
 Q3: Looking at the results, what has changed compared to using the monoisotopic mass as candidate filter?
 
 Q4: Is the molecular formula helpful here?
+
+---
 
 ### *Step 3 - Run MetFrag adding additional experimental information*
 
