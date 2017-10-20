@@ -87,8 +87,14 @@ Please download the prepared data:
 
 ---
 
-<img src="./MetFrag hands-on manual/image27.png" width="557" height="317" />
+<video controls preload>
+    <source src="media/cast3.webm"></source>
+    <div>
+         <img src="media/image6.png" alt="Results" />
+    </div>
+</video>
 
+---
 
 **Questions:**
 
