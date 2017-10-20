@@ -1,4 +1,4 @@
-c-ruttkies# MetFrag Hands-on
+# MetFrag Hands-on
 
 **Topic:** Using MetFrag for compound identification with MS/MS data and additional information.
 
@@ -56,7 +56,7 @@ Please download the prepared data:
 
 ---
 
-#### 1 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
+### 1 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
 
 - use the "Fragmentation settings" tab to add the given MS2 peak list
 - you can visualize the peak list by clicking on the "Show Spectrum" button
