@@ -144,12 +144,10 @@ Q5: Is the molecular formula helpful here?
 
 - MetFrag includes a linear retention time model
 - based on a *n*-octanol/water partition coefficient([*logP*](https://en.wikipedia.org/wiki/Partition_coefficient)) - retention time correlation
+- the file <a href="metfrag_handson_data/retentiontime_model/rt_input_PubChem_XlogPs.csv" download>rt_input_PubChem_XlogPs.csv</a> contains a data set of measured retention times and [*XLogP3*](https://www.ncbi.nlm.nih.gov/pubmed/17985865) values of 254 Eawag standards:
+<img src="media/image8.png" alt="rt model" />
 
-
-
--   the file <a href="metfrag_handson_data/retentiontime_model/rt_input_PubChem_XlogPs.csv" download>rt\_input\_PubChem\_XlogPs.csv</a> contains a data set of measured retention times and [*XLogP3*](https://www.ncbi.nlm.nih.gov/pubmed/17985865) values of 254 Eawag standards:
-
-<img src="./MetFrag hands-on manual/image25.png" width="513" height="311" />
+---
 
 -   upload the data set to the MetFragWeb tool in the “Candidate Filter & Score Settings” tab using the “Retention Time” panel on the right side (direct download: <a href="https://raw.githubusercontent.com/c-ruttkies/MetFragTraining/master/metfrag_handson_data/retentiontime_model/rt_input_PubChem_XlogPs.csv" download>rt\_input\_PubChem\_XlogPs.csv</a>)
 
