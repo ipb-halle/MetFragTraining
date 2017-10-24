@@ -151,7 +151,7 @@ Q5: Is the molecular formula helpful here?
 
 - upload the data set to the MetFragWeb tool in the "Candidate Filter & Score Settings" tab using the "Retention Time" panel on the right side (direct download: <a href="https://raw.githubusercontent.com/c-ruttkies/MetFragTraining/master/metfrag_handson_data/retentiontime_model/rt_input_PubChem_XlogPs.csv" download>rt_input_PubChem_XlogPs.csv</a>)
 
-<img src="media/image9.png" />
+<img src="media/image9.png" alt="rt model setup" />
 
 ---
 
@@ -164,11 +164,11 @@ Q5: Is the molecular formula helpful here?
 
 -   use the same settings as in 2 b) and process the candidates
 
-<img src="media/image10.png" />
+<img src="media/image10.png" alt="rt model results" />
 
 ---
 
-**Questions:**
+*Questions:*
 
 Q6: What has changed compared to the previous run?
 
@@ -176,29 +176,31 @@ Q7: Use the weight sliders in the “Results” tab. Does it change anything?
 
 Q8: Is the retention time information helpful here?
 
-### *Step 4 - Run MetFrag adding additional meta information*
+---
 
-*4 a) Add the additional scoring terms*
+## *Step 4 - Run MetFrag adding additional meta information*
+
+### 4 a) Add the additional scoring terms
 
 -   meta information can help to verify putative identifications depending on the experimental context
-
 -   however, you need to be careful when using this information which is not related to your acquired data
-
--   in the “Candidate Filter & Score Settings” tab select the additional “Database Scoring Terms”
-
+-   in the "Candidate Filter & Score Settings" tab select the additional "Database Scoring Terms"
     -   PubChemNumberPubMedReferences
-
     -   PubChemNumberPatents
 
 <img src="./MetFrag hands-on manual/image26.png" width="476" height="271" />
 
-*4 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data*
+---
+
+### 4 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
 
 -   use the same settings as in 3 b) and process the candidates
 
 <img src="./MetFrag hands-on manual/image21.png" width="484" height="276" />
 
-**Questions:**
+---
+
+*Questions:*
 
 Q9: What has changed compared to the previous run?
 
@@ -208,10 +210,11 @@ Q11: Investigate the high intensity fragments of the first ranked candidate. Are
 
 <img src="./MetFrag hands-on manual/image3.png" width="539" height="307" />
 
+---
 
-### *Step 5 - Search in spectral libraries*
+## *Step 5 - Search in spectral libraries*
 
-*5 a) Investigate MS/MS peaks in MassBank*
+### 5 a) Investigate MS/MS peaks in MassBank
 
 -   visit MassBank EU (http://www.massbank.eu)
 
