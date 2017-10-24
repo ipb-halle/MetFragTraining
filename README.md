@@ -148,7 +148,7 @@ coefficient - retention time correlation
 
 <img src="./MetFrag hands-on manual/image25.png" width="513" height="311" />
 
--   upload the data set to the MetFragWeb tool in the “Candidate Filter & Score Settings” tab using the “Retention Time” panel on the right side
+-   upload the data set to the MetFragWeb tool in the “Candidate Filter & Score Settings” tab using the “Retention Time” panel on the right side (direct download: <a href="https://raw.githubusercontent.com/c-ruttkies/MetFragTraining/master/metfrag_handson_data/retentiontime_model/rt_input_PubChem_XlogPs.csv" download>rt\_input\_PubChem\_XlogPs.csv</a>)
 
 <img src="./MetFrag hands-on manual/image20.png" width="457" height="261" />
 
