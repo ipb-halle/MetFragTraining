@@ -135,12 +135,15 @@ Q4: Is the molecular formula helpful here?
 
 ### 3 a) Add the retention time data model to the MetFragWeb tool
 
-- adding additional information available from the experimental context is oftentimes helpful to verify a putative identification
-- now we want to add retention time as additional experimental information
-- there exist different models to predict retention times
-- MetFrag includes a linear model that is usually based on a [*logP*](https://en.wikipedia.org/wiki/Partition_coefficient) partition
+- adding additional information available from the experimental context is often helpful to verify a putative identification
+- we want to add retention time as additional experimental information
 
-coefficient - retention time correlation
+---
+
+- MetFrag includes a linear retention time model
+- based on a [*logP*](https://en.wikipedia.org/wiki/Partition_coefficient) partition coefficient - retention time correlation
+
+
 
 -   the file retentiontime\_model/rt\_input\_PubChem\_XlogPs.csv contains a data set of measured retention times and [*XLogP3*](https://www.ncbi.nlm.nih.gov/pubmed/17985865) values of 254 Eawag standards:
 
