@@ -143,7 +143,7 @@ Q5: Is the molecular formula helpful here?
 ---
 
 - MetFrag includes a linear retention time model
-- based on a [*logP*](https://en.wikipedia.org/wiki/Partition_coefficient) partition coefficient - retention time correlation
+- based on a *n*-octanol/water partition coefficient([*logP*](https://en.wikipedia.org/wiki/Partition_coefficient)) - retention time correlation
 
 
 
