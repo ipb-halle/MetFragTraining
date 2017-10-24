@@ -149,19 +149,24 @@ Q5: Is the molecular formula helpful here?
 
 ---
 
--   upload the data set to the MetFragWeb tool in the “Candidate Filter & Score Settings” tab using the “Retention Time” panel on the right side (direct download: <a href="https://raw.githubusercontent.com/c-ruttkies/MetFragTraining/master/metfrag_handson_data/retentiontime_model/rt_input_PubChem_XlogPs.csv" download>rt\_input\_PubChem\_XlogPs.csv</a>)
+- upload the data set to the MetFragWeb tool in the "Candidate Filter & Score Settings" tab using the "Retention Time" panel on the right side (direct download: <a href="https://raw.githubusercontent.com/c-ruttkies/MetFragTraining/master/metfrag_handson_data/retentiontime_model/rt_input_PubChem_XlogPs.csv" download>rt_input_PubChem_XlogPs.csv</a>)
 
-<img src="./MetFrag hands-on manual/image20.png" width="457" height="261" />
+<img src="media/image9.png" />
 
--   after the file upload set the retention time of the precursor and select XLogP3 as partition coefficient which is used for correlation
+---
 
--   this results in an additional scoring term in the scoring function of MetFrag
+- after the file upload set the retention time of the precursor and select XLogP3 as partition coefficient which is used for correlation
+- this results in an additional scoring term in the scoring function of MetFrag
 
-*3 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data*
+---
+
+### 3 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
 
 -   use the same settings as in 2 b) and process the candidates
 
-<img src="./MetFrag hands-on manual/image19.png" width="521" height="297" />
+<img src="media/image10.png" />
+
+---
 
 **Questions:**
 
