@@ -108,19 +108,18 @@ Q2: What do you think is the correct molecular formula? What else could you do t
 
 ### 2 a) Retrieve Candidates from database
 
--   use the same settings as in 1 a) but add the molecular formula
-
--   select “Include references” when using PubChem
+- use the same settings as in 1 a) but add the molecular formula
+- also select "Include references" when using PubChem
 
 ---
 
-<img src="./MetFrag hands-on manual/image16.png"/>
+<img src="media/image7.png" alt="Retrieve Candidates with formula" />
 
 ---
 
 ### 2 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
 
--   use the same settings as in 1 b) and process the candidates
+- use the same settings as in 1 b) and process the candidates
 
 ---
 
