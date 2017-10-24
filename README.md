@@ -144,7 +144,7 @@ Q5: Is the molecular formula helpful here?
 
 coefficient - retention time correlation
 
--   the file retentiontime\_model/rt\_input\_PubChem\_XlogPs.csv contains a data set of measured retention times and [*XLogP3*](https://www.ncbi.nlm.nih.gov/pubmed/17985865) values of 254 Eawag standards:
+-   the file <a href="metfrag_handson_data/retentiontime_model/rt_input_PubChem_XlogPs.csv" download>rt\_input\_PubChem\_XlogPs.csv</a> contains a data set of measured retention times and [*XLogP3*](https://www.ncbi.nlm.nih.gov/pubmed/17985865) values of 254 Eawag standards:
 
 <img src="./MetFrag hands-on manual/image25.png" width="513" height="311" />
 
