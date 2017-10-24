@@ -108,7 +108,7 @@ Q3: What else could you do to verify the molecular formula besides using the giv
 
 ## *Step 2 - Run MetFrag processing using molecular formula*
 
-### 2 a) Retrieve Candidates from database
+#### 2 a) Retrieve Candidates from database
 
 - use the same settings as in 1 a) but add the molecular formula
 - also select "Include references" when using PubChem
@@ -119,7 +119,7 @@ Q3: What else could you do to verify the molecular formula besides using the giv
 
 ---
 
-### 2 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
+#### 2 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
 
 - use the same settings as in 1 b) and process the candidates
 
