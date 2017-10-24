@@ -100,7 +100,9 @@ Please download the prepared data:
 
 Q1: How many different molecular formulas are present?
 
-Q2: What do you think is the correct molecular formula? What else could you do to verify that besides the given MetFrag results?
+Q2: What do you think is the correct molecular formula? 
+
+Q3: What else could you do to verify the molecular formula besides using the given MetFrag results?
 
 ---
 
@@ -125,9 +127,9 @@ Q2: What do you think is the correct molecular formula? What else could you do t
 
 *Questions:*
 
-Q3: Looking at the results, what has changed compared to using the monoisotopic mass as candidate filter?
+Q4: Looking at the results, what has changed compared to using the monoisotopic mass as candidate filter?
 
-Q4: Is the molecular formula helpful here?
+Q5: Is the molecular formula helpful here?
 
 ---
 
@@ -162,11 +164,11 @@ coefficient - retention time correlation
 
 **Questions:**
 
-Q5: What has changed compared to the previous run?
+Q6: What has changed compared to the previous run?
 
-Q6: Use the weight sliders in the “Results” tab. Does it change anything?
+Q7: Use the weight sliders in the “Results” tab. Does it change anything?
 
-Q7: Is the retention time information helpful here?
+Q8: Is the retention time information helpful here?
 
 ### *Step 4 - Run MetFrag adding additional meta information*
 
@@ -192,11 +194,11 @@ Q7: Is the retention time information helpful here?
 
 **Questions:**
 
-Q8: What has changed compared to the previous run?
+Q9: What has changed compared to the previous run?
 
-Q9: Would the number of references and patents have helped for a metabolomics experiment?
+Q10: Would the number of references and patents have helped for a metabolomics experiment?
 
-Q10: Investigate the high intensity fragments of the first ranked candidate. Are they plausible compared to fragment structures of other candidates?
+Q11: Investigate the high intensity fragments of the first ranked candidate. Are they plausible compared to fragment structures of other candidates?
 
 <img src="./MetFrag hands-on manual/image3.png" width="539" height="307" />
 
@@ -215,7 +217,7 @@ Q10: Investigate the high intensity fragments of the first ranked candidate. Are
 
 **Questions:**
 
-Q11: Investigate the results and compare them to your MetFrag result list. Any conclusions?
+Q12: Investigate the results and compare them to your MetFrag result list. Any conclusions?
 
 ### *Step 6 - Combine Spectra library search and MetFrag*
 
@@ -235,4 +237,4 @@ Q11: Investigate the results and compare them to your MetFrag result list. Any c
 
 **Questions:**
 
-Q12: Discard the meta information scores to just use the results based on experimental data. Any conclusions?
+Q13: Discard the meta information scores to just use the results based on experimental data. Any conclusions?
