@@ -245,13 +245,19 @@ Q12: Investigate the results and compare them to your MetFrag result list. Any c
 -   in the "Candidate Filter & Score Settings" tab enable "Spectral Similarity"
 -   MetFrag will now query the MS/MS peak list against a spectral library mirror to search for similar spectra of known compounds
 
-<img src="./MetFrag hands-on manual/image18.png" width="527" height="300" />
+---
 
-*6 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data*
+<img src="media/image15.png" alt="spectral similarity setup" />
+
+---
+
+#### 6 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
 
 -   use the same settings as in 4 b) and process the candidates
 
-<img src="./MetFrag hands-on manual/image22.png" width="501" height="286" />
+<img src="media/image16.png" alt="spectral similarity results" />
+
+---
 
 **Questions:**
 
