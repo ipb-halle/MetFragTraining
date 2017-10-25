@@ -28,7 +28,7 @@ Please download the prepared data:
 
 ## *Step 1 - Run initial MetFrag processing*
 
-### 1 a) Retrieve Candidates from database
+#### 1 a) Retrieve Candidates from database
 - visit the MetFragWeb tool in your browser 
 <a href="http://msbi.ipb-halle.de/MetFragBeta" target="_blank">http://msbi.ipb-halle.de/MetFragBeta</a>
 - define database settings to retrieve candidates given the MS1 information:
@@ -56,7 +56,7 @@ Please download the prepared data:
 
 ---
 
-### 1 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
+#### 1 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
 
 - use the "Fragmentation settings" tab to add the given MS2 peak list
 - you can visualize the peak list by clicking on the "Show Spectrum" button
@@ -135,16 +135,17 @@ Q5: Is the molecular formula helpful here?
 
 ## *Step 3 - Run MetFrag adding additional experimental information*
 
-### 3 a) Add the retention time data model to the MetFragWeb tool
+#### 3 a) Add the retention time data model to the MetFragWeb tool
 
 - adding additional information available from the experimental context is often helpful to verify a putative identification
 - we want to add retention time as additional experimental information
 
 ---
 
-- MetFrag includes a linear retention time model
-- based on a *n*-octanol/water partition coefficient([*logP*](https://en.wikipedia.org/wiki/Partition_coefficient)) - retention time correlation
-- the file <a href="metfrag_handson_data/retentiontime_model/rt_input_PubChem_XlogPs.csv" download>rt_input_PubChem_XlogPs.csv</a> contains a data set of measured retention times and [*XLogP3*](https://www.ncbi.nlm.nih.gov/pubmed/17985865) values of 254 Eawag standards:
+- MetFrag includes a retention time model
+- linear correlation of *n*-octanol/water partition coefficient([*logP*](https://en.wikipedia.org/wiki/Partition_coefficient)) and retention time
+- candidate *logP* is predicted by XLogP3(retrieved from PubChem) or calculated by CDK's XLogP
+- <a href="metfrag_handson_data/retentiontime_model/rt_XlogP.csv" download>rt_XlogP.csv</a> contains a data set of measured rt and [*XLogP3*](https://www.ncbi.nlm.nih.gov/pubmed/17985865) values of 254 Eawag standards:
 <img src="media/image8.png" alt="rt model" />
 
 ---
@@ -160,7 +161,7 @@ Q5: Is the molecular formula helpful here?
 
 ---
 
-### 3 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
+#### 3 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
 
 -   use the same settings as in 2 b) and process the candidates
 
@@ -172,7 +173,7 @@ Q5: Is the molecular formula helpful here?
 
 Q6: What has changed compared to the previous run?
 
-Q7: Use the weight sliders in the “Results” tab. Does it change anything?
+Q7: Use the weight sliders in the "Results" tab. Does it change anything?
 
 Q8: Is the retention time information helpful here?
 
@@ -180,23 +181,25 @@ Q8: Is the retention time information helpful here?
 
 ## *Step 4 - Run MetFrag adding additional meta information*
 
-### 4 a) Add the additional scoring terms
+#### 4 a) Add the additional scoring terms
 
--   meta information can help to verify putative identifications depending on the experimental context
--   however, you need to be careful when using this information which is not related to your acquired data
--   in the "Candidate Filter & Score Settings" tab select the additional "Database Scoring Terms"
-    -   PubChemNumberPubMedReferences
-    -   PubChemNumberPatents
-
-<img src="./MetFrag hands-on manual/image26.png" width="476" height="271" />
+- meta information can help to verify putative identifications depending on the experimental context
+- however, you need to be careful when using this information which is not related to your acquired data
+- in the "Candidate Filter & Score Settings" tab select the additional "Database Scoring Terms"
+    - PubChemNumberPubMedReferences
+    - PubChemNumberPatents
 
 ---
 
-### 4 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
+<img src="media/image11.png" alt="meta information setup" />
 
--   use the same settings as in 3 b) and process the candidates
+---
 
-<img src="./MetFrag hands-on manual/image21.png" width="484" height="276" />
+#### 4 b) Process candidates by performing *in silico* fragmentation and matching to MS/MS data
+
+- use the same settings as in 3 b) and process the candidates
+
+<img src="media/image12.png" alt="meta information result" />
 
 ---
 
@@ -208,32 +211,38 @@ Q10: Would the number of references and patents have helped for a metabolomics e
 
 Q11: Investigate the high intensity fragments of the first ranked candidate. Are they plausible compared to fragment structures of other candidates?
 
-<img src="./MetFrag hands-on manual/image3.png" width="539" height="307" />
+---
+
+<img src="media/image13.png" alt="view fragments" />
 
 ---
 
 ## *Step 5 - Search in spectral libraries*
 
-### 5 a) Investigate MS/MS peaks in MassBank
+#### 5 a) Investigate MS/MS peaks in MassBank
 
--   visit MassBank EU (http://www.massbank.eu)
+- visit MassBank EU (<a href="http://www.massbank.eu" target="_blank">http://www.massbank.eu</a>)
+- select the "Peak Search" and add the most intense explained peaks
 
--   select the “Peak Search” and add the most intense explained peaks
+---
 
-<img src="./MetFrag hands-on manual/image32.png" width="601" height="289" />
+<img src="media/image14.png" alt="massbank" />
 
--   hitting the “Search” button MassBank searches for spectra with matching peaks in the database
+- hitting "Search" to find spectra with matching peaks in the database
 
-**Questions:**
+---
+
+*Questions:*
 
 Q12: Investigate the results and compare them to your MetFrag result list. Any conclusions?
 
-### *Step 6 - Combine Spectra library search and MetFrag*
+---
 
-*6 a) Enable spectral similarity in MetFrag*
+## *Step 6 - Combine Spectra library search and MetFrag*
 
--   in the “Candidate Filter & Score Settings” tab enable “Spectral Similarity”
+#### 6 a) Enable spectral similarity in MetFrag
 
+-   in the "Candidate Filter & Score Settings" tab enable "Spectral Similarity"
 -   MetFrag will now query the MS/MS peak list against a spectral library mirror to search for similar spectra of known compounds
 
 <img src="./MetFrag hands-on manual/image18.png" width="527" height="300" />
