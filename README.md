@@ -21,8 +21,8 @@ selected precursor ion is known as \[M+H\]⁺.
 
 Please download the prepared data:
 
-* MS1: <a href="metfrag_handson_data/ms1_mz230.1162_rt10.1.txt" download>ms1_mz230.1162_rt10.1.txt</a>
-* MS2: <a href="metfrag_handson_data/ms2_mz230.1162_rt10.1.txt" download>ms2_mz230.1162_rt10.1.txt</a>
+* MS1: <a href="handson_data/ms1_mz230.1162_rt10.1.txt" download>ms1_mz230.1162_rt10.1.txt</a>
+* MS2: <a href="handson_data/ms2_mz230.1162_rt10.1.txt" download>ms2_mz230.1162_rt10.1.txt</a>
 
 ---
 
@@ -145,12 +145,12 @@ Q5: Is the molecular formula helpful here?
 - MetFrag includes a retention time model
 - linear correlation of *n*-octanol/water partition coefficient([*logP*](https://en.wikipedia.org/wiki/Partition_coefficient)) and retention time
 - candidate *logP* is predicted by XLogP3(retrieved from PubChem) or calculated by CDK's XLogP
-- <a href="metfrag_handson_data/retentiontime_model/rt_XlogP.csv" download>rt_XlogP.csv</a> contains a data set of measured rt and [*XLogP3*](https://www.ncbi.nlm.nih.gov/pubmed/17985865) values of 254 Eawag standards:
+- <a href="handson_data/retentiontime_model/rt_XlogP.csv" download>rt_XlogP.csv</a> contains a data set of measured rt and [*XLogP3*](https://www.ncbi.nlm.nih.gov/pubmed/17985865) values of 254 Eawag standards:
 <img src="media/image8.png" alt="rt model" />
 
 ---
 
-- upload the data set to the MetFragWeb tool in the "Candidate Filter & Score Settings" tab using the "Retention Time" panel on the right side (direct download: <a href="https://raw.githubusercontent.com/c-ruttkies/MetFragTraining/master/metfrag_handson_data/retentiontime_model/rt_input_PubChem_XlogPs.csv" download>rt_input_PubChem_XlogPs.csv</a>)
+- upload the data set to the MetFragWeb tool in the "Candidate Filter & Score Settings" tab using the "Retention Time" panel on the right side (direct download: <a href="https://raw.githubusercontent.com/c-ruttkies/MetFragTraining/master/handson_data/retentiontime_model/rt_input_PubChem_XlogPs.csv" download>rt_input_PubChem_XlogPs.csv</a>)
 
 <img src="media/image9.png" alt="rt model setup" />
 
@@ -262,3 +262,12 @@ Q12: Investigate the results and compare them to your MetFrag result list. Any c
 **Questions:**
 
 Q13: Discard the meta information scores to just use the results based on experimental data. Any conclusions?
+
+---
+
+## Exercise
+
+- visit the CASMI contest site (<a href="http://www.casmi-contest.org/2017/challenges_1-45.shtml" target="_blank">http://www.casmi-contest.org/2017/challenges_1-45.shtml</a>)
+- try to identify some of the compounds
+- check your results <a href="http://www.casmi-contest.org/2017/preview/solutions.shtml" target="_blank">here</a>
+
