@@ -153,7 +153,7 @@ Q5: Is the molecular formula helpful here?
 
 ---
 
-- upload the data set to the MetFragWeb tool in the "Candidate Filter & Score Settings" tab using the "Retention Time" panel on the right side (direct download: <a href="https://raw.githubusercontent.com/c-ruttkies/MetFragTraining/master/handson_data/retentiontime_model/rt_input_PubChem_XlogPs.csv" download>rt_input_PubChem_XlogPs.csv</a>)
+- upload the data set to the MetFragWeb tool in the "Candidate Filter & Score Settings" tab using the "Retention Time" panel on the right side (direct download: <a href="https://raw.githubusercontent.com/c-ruttkies/MetFragTraining/master/handson_data/retentiontime_model/rt_XlogP.csv" download>rt_input_PubChem_XlogPs.csv</a>)
 
 <img src="media/image9.png" alt="rt model setup" />
 
