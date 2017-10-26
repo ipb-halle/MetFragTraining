@@ -105,6 +105,10 @@ Q2: What do you think is the correct molecular formula?
 
 Q3: What else could you do to verify the molecular formula besides using the given MetFrag results?
 
+--
+
+Visit http://www.envipat.eawag.ch/index.php and verify your molecular formula.
+
 ---
 
 ## *Step 2 - Run MetFrag processing using molecular formula*
