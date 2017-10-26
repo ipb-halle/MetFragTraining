@@ -48,7 +48,7 @@ Please download the prepared data:
     </div>
 </video>
 
-<a href="msbi.ipb-halle.de/MetFragBeta/landing.xhtml?FragmentPeakMatchAbsoluteMassDeviation=0.001&FragmentPeakMatchRelativeMassDeviation=5&DatabaseSearchRelativeMassDeviation=5&PeakList=57.06984_29;61.97913_88;68.02435_999;71.0604_228;79.00582_486;90.01058_17;96.05565_432;104.00108_999;110.04612_66;128.05657_6;132.03232_422;138.0775_129;146.02289_393;172.0386_4;174.05425_999;230.11679_999&IonizedPrecursorMass=230.1162&MetFragDatabaseType=PubChem">Go to live demo</a>
+<a href="http://msbi.ipb-halle.de/MetFragBeta/landing.xhtml?FragmentPeakMatchAbsoluteMassDeviation=0.001&FragmentPeakMatchRelativeMassDeviation=5&DatabaseSearchRelativeMassDeviation=5&PeakList=57.06984_29;61.97913_88;68.02435_999;71.0604_228;79.00582_486;90.01058_17;96.05565_432;104.00108_999;110.04612_66;128.05657_6;132.03232_422;138.0775_129;146.02289_393;172.0386_4;174.05425_999;230.11679_999&IonizedPrecursorMass=230.1162&MetFragDatabaseType=PubChem">Go to live demo</a>
 
 ---
 
@@ -118,7 +118,7 @@ Q3: What else could you do to verify the molecular formula besides using the giv
 
 <img src="media/image7.png" alt="Retrieve Candidates with formula" />
 
-<a href="msbi.ipb-halle.de/MetFragBeta/landing.xhtml?FragmentPeakMatchAbsoluteMassDeviation=0.001&FragmentPeakMatchRelativeMassDeviation=5&DatabaseSearchRelativeMassDeviation=5&PeakList=57.06984_29;61.97913_88;68.02435_999;71.0604_228;79.00582_486;90.01058_17;96.05565_432;104.00108_999;110.04612_66;128.05657_6;132.03232_422;138.0775_129;146.02289_393;172.0386_4;174.05425_999;230.11679_999&IonizedPrecursorMass=230.1162&MetFragDatabaseType=PubChem&NeutralPrecursorMolecularFormula=C9H16ClN5">Go to live demo</a>
+<a href="http://msbi.ipb-halle.de/MetFragBeta/landing.xhtml?FragmentPeakMatchAbsoluteMassDeviation=0.001&FragmentPeakMatchRelativeMassDeviation=5&DatabaseSearchRelativeMassDeviation=5&PeakList=57.06984_29;61.97913_88;68.02435_999;71.0604_228;79.00582_486;90.01058_17;96.05565_432;104.00108_999;110.04612_66;128.05657_6;132.03232_422;138.0775_129;146.02289_393;172.0386_4;174.05425_999;230.11679_999&IonizedPrecursorMass=230.1162&MetFragDatabaseType=PubChem&NeutralPrecursorMolecularFormula=C9H16ClN5">Go to live demo</a>
 
 ---
 
