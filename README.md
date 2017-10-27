@@ -69,8 +69,6 @@ Please download the prepared data:
          <img src="media/image3.png" alt="MS2 peak list" />
          <br>
          <img src="media/image4.png" alt="MS2 peak list" />
-	 <br>
-	 <img src="media/image5.png" alt="MS2 peak list" />
     </div>
 </video>
 
