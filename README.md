@@ -43,8 +43,6 @@ Please download the prepared data:
     <source src="media/cast1.webm"></source> 
     <div>
          <img src="media/image1.png" alt="Retrieve Candidates" />
-         <br>
-         <img src="media/image2.png" alt="Retrieve Candidates" />
     </div>
 </video>
 
