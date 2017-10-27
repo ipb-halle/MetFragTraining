@@ -274,3 +274,110 @@ Q13: Discard the meta information scores to just use the results based on experi
 - try to identify some of the compounds
 - check your results <a href="http://www.casmi-contest.org/2017/preview/solutions.shtml" target="_blank">here</a>
 
+---
+
+## Advanced: Using MetFrag on command line
+
+- MetFrag can be used on command line to process batches of annotation tasks
+- parameter files for MetFragCLI can be created by web interface
+- get your copy of MetFragCLI from <br>
+<a href="http://c-ruttkies.github.io/MetFrag/" target="_blank">http://c-ruttkies.github.io/MetFrag/</a>
+- setup one example calculation to retrieve a set of valid parameter
+
+---
+
+<img src="media/image17.png" alt="get parameter file" />
+
+---
+
+#### Prepare one directory with the required files for each annotation task
+<!-- .slide: style="text-align: left;"> -->  
+<pre><code class="bash">
+~/course$ ls *
+MetFrag2.3.1-CL.jar  MetFragWeb_Parameters.zip
+
+data:
+challenge-001-msms.txt  challenge-003-msms.txt  challenge-005-msms.txt  challenge-007-msms.txt  challenge-009-msms.txt
+challenge-001-ms.txt    challenge-003-ms.txt    challenge-005-ms.txt    challenge-007-ms.txt    challenge-009-ms.txt
+challenge-002-msms.txt  challenge-004-msms.txt  challenge-006-msms.txt  challenge-008-msms.txt
+challenge-002-ms.txt    challenge-004-ms.txt    challenge-006-ms.txt    challenge-008-ms.txt
+
+MetFragWeb_Parameters:
+MetFragWeb_Parameters.cfg  MetFragWeb_Peaklist.txt  README.txt
+</code></pre>
+
+
+---
+
+#### Prepare one directory with the required files for each annotation task
+
+- slightly adjust MetFragWeb_Parameters.cfg
+
+<!-- .slide: style="text-align: left;"> -->
+<pre><code class="bash">
+# 1 for M+H and -1 for M-H
+PrecursorIonMode = 1 
+FragmentPeakMatchRelativeMassDeviation = 5.0
+SampleName = MetFragWeb_Sample
+MetFragCandidateWriter = XLS
+DatabaseSearchRelativeMassDeviation = 5.0
+FragmentPeakMatchAbsoluteMassDeviation = 0.001
+MetFragDatabaseType = PubChem
+ResultsPath = .
+#NeutralPrecursorMass = 272.068624
+IonizedPrecursorMass = 272.068624
+MetFragScoreTypes = FragmenterScore
+MetFragScoreWeights = 1.0
+MetFragPreProcessingCandidateFilter = UnconnectedCompoundFilter,IsotopeFilter
+IsPositiveIonMode = true
+MaximumTreeDepth = 2
+NumberThreads = 1
+UseSmiles = true
+PeakListPath = MetFragWeb_Peaklist.txt
+</code></pre>
+
+---
+
+#### Prepare one directory with the required files for each annotation task
+
+- create the directories and populate with files
+
+<!-- .slide: style="text-align: left;"> -->
+<pre><code class="bash">
+for x in `seq -f %03g 1 9`; do
+ mkdir challenge-${x};
+ cp data/challenge-${x}* challenge-${x};
+ cp MetFragWeb_Parameters/MetFragWeb_Parameters.cfg challenge-${x};
+ ln -s challenge-${x}-msms.txt challenge-${x}/MetFragWeb_Peaklist.txt;
+done
+</code></pre>
+
+---
+
+#### Prepare one directory with the required files for each annotation task
+
+- inject precursor mass
+
+<!-- .slide: style="text-align: left;"> -->
+<pre><code class="bash">
+for x in `seq -f %03g 1 9`; do
+ mass=`head -n1 challenge-${x}/challenge-${x}-ms.txt | cut -f1`;
+ sed -i 's|IonizedPrecursorMass =.*|IonizedPrecursorMass ='${mass}'|g' challenge-${x}/MetFragWeb_Parameters.cfg
+done
+</code></pre>
+
+---
+
+#### Prepare one directory with the required files for each annotation task
+
+- run all MetFrag processes
+
+<!-- .slide: style="text-align: left;"> -->
+<pre><code class="bash">
+for x in `seq -f %03g 1 9`; do
+ cd challenge-$x;
+ java -jar ../MetFrag2.4.2-CL.jar MetFragWeb_Parameters.cfg
+ cd ..;
+done
+</code></pre>
+
