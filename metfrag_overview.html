@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>MetFrag Overview</title>
+
+<link rel="stylesheet" href="reveal.js/css/reveal.css">
+<link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/reveal-override.css"/>
+
+<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+<!-- Printing and PDF exports -->
+<script>
+	var link = document.createElement('link');
+	link.rel = 'stylesheet';
+	link.type = 'text/css';
+	link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css'
+			: 'css/print/paper.css';
+	document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<div class="slides">
+			<section> 
+				<h1>MetFrag Overview</h1>	
+			</section>
+			<section> 
+                                <h2>Function</h2>
+				<ul>
+				 <li>Identification of unknown small molecules from high resolution, accurate mass spectrometry with reference standard data is not possible for complex samples, e.g. in metabolomics.</li>
+				 <li>MetFrag proposes tentative identifications.</li>
+				</ul>
+                        </section>
+			<section> 
+                                <h2>Functional Principle</h2>
+				<div style="width: 70%; float:left">
+				 <img src="media/principle.png" alt="Principle" style="border: 0;"/>
+				</div>
+				<div style="width: 30%; float:right">
+				<ul>
+                                 <li>candidate selection</li>
+                                 <li class="fragment">in silico fragmentation</li>
+				 <li class="fragment">scoring/ranking</li>
+                                </ul>
+				</div>
+                        </section>
+		</div>
+
+	</div>
+
+
+
+
+
+	<script src="reveal.js/lib/js/head.min.js"></script>
+	<script src="reveal.js/js/reveal.js"></script>
+
+	<script>
+		Reveal.initialize({
+			controls : true,
+			progress : true,
+			history : false,
+			center : true,
+			width : 1000,
+			height : 1000,
+			margin : 0.15,
+
+			// Optional libraries used to extend on reveal.js
+			dependencies : [ {
+				src : 'reveal.js/lib/js/classList.js',
+				condition : function() {
+					return !document.body.classList;
+				}
+			}, {
+				src : 'reveal.js/plugin/markdown/marked.js',
+				condition : function() {
+					return !!document.querySelector('[data-markdown]');
+				}
+			}, {
+				src : 'reveal.js/plugin/markdown/markdown.js',
+				condition : function() {
+					return !!document.querySelector('[data-markdown]');
+				}
+			}, {
+				src : 'reveal.js/highlight/highlight.js',
+				async : true,
+				callback : function() {
+					hljs.initHighlightingOnLoad();
+				}
+			}, {
+				src : 'reveal.js/notes/notes.js'
+			} ]
+		});
+	</script>
+
+</body>
+</html>
