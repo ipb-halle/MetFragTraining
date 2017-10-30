@@ -276,9 +276,9 @@ Q13: Discard the meta information scores to just use the results based on experi
 
 ---
 
-## Advanced: Using MetFrag on command line
+## Advanced exercise: using MetFrag on command line
 
-- MetFrag can be used on command line to process batches of annotation tasks
+- MetFrag can be used on command line to process batches of annotation tasks -- its called MetFragCLI
 - parameter files for MetFragCLI can be created by web interface
 - get your copy of MetFragCLI from <br>
 <a href="http://c-ruttkies.github.io/MetFrag/" target="_blank">http://c-ruttkies.github.io/MetFrag/</a>
@@ -292,9 +292,10 @@ Q13: Discard the meta information scores to just use the results based on experi
 
 #### Prepare one directory with the required files for each annotation task
 <!-- .slide: style="text-align: left;"> -->  
+
 <pre><code class="bash">
 ~/course$ ls *
-MetFrag2.3.1-CL.jar  MetFragWeb_Parameters.zip
+MetFrag2.4.2-CL.jar  MetFragWeb_Parameters.zip
 
 data:
 challenge-001-msms.txt  challenge-003-msms.txt  challenge-005-msms.txt  challenge-007-msms.txt  challenge-009-msms.txt
@@ -311,7 +312,8 @@ MetFragWeb_Parameters.cfg  MetFragWeb_Peaklist.txt  README.txt
 
 #### Prepare one directory with the required files for each annotation task
 
-- slightly adjust MetFragWeb_Parameters.cfg
+- slightly adjust MetFragWeb_Parameters.cfg to use ionized precursor mass
+- works well in conjunction with "PrecursorIonMode" option
 
 <!-- .slide: style="text-align: left;"> -->
 <pre><code class="bash">
@@ -368,9 +370,7 @@ done
 
 ---
 
-#### Prepare one directory with the required files for each annotation task
-
-- run all MetFrag processes
+#### Run all MetFrag processes
 
 <!-- .slide: style="text-align: left;"> -->
 <pre><code class="bash">
@@ -381,3 +381,4 @@ for x in `seq -f %03g 1 9`; do
 done
 </code></pre>
 
+--- 
