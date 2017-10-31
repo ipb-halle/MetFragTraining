@@ -272,7 +272,7 @@ Q13: Discard the meta information scores to just use the results based on experi
 
 - visit the CASMI contest site (<a href="http://www.casmi-contest.org/2017/challenges_1-45.shtml" target="_blank">http://www.casmi-contest.org/2017/challenges_1-45.shtml</a>)
 - try to identify some of the compounds
-- check your results <a href="http://www.casmi-contest.org/2017/preview/solutions.shtml" target="_blank">here</a>
+- check your results <a href="http://www.casmi-contest.org/2017/solutions.shtml" target="_blank">here</a>
 
 ---
 
