@@ -2,7 +2,7 @@
 
 **Topic:** Using MetFrag for compound identification with MS/MS data and additional information.
 
-A online training presentation is available [here](https://c-ruttkies.github.io/MetFragTraining/).
+A online training presentation is available [here](https://ipb-halle.github.io/MetFragTraining/).
 
 ---
 
@@ -30,7 +30,7 @@ Please download the prepared data:
 
 #### 1 a) Retrieve Candidates from database
 - visit the MetFragWeb tool in your browser 
-<a href="http://msbi.ipb-halle.de/MetFragBeta" target="_blank">http://msbi.ipb-halle.de/MetFragBeta</a>
+<a href="https://msbi.ipb-halle.de/MetFrag" target="_blank">https://msbi.ipb-halle.de/MetFrag</a>
 - define database settings to retrieve candidates given the MS1 information:
 	1. use the precursor m/z value and type to calculate the neutral monoisotopic mass
 	2. check mass accuracy
@@ -46,7 +46,7 @@ Please download the prepared data:
     </div>
 </video>
 
-<a href="http://msbi.ipb-halle.de/MetFragBeta/landing.xhtml?FragmentPeakMatchAbsoluteMassDeviation=0.001&FragmentPeakMatchRelativeMassDeviation=5&DatabaseSearchRelativeMassDeviation=5&PeakList=57.06984_29;61.97913_88;68.02435_999;71.0604_228;79.00582_486;90.01058_17;96.05565_432;104.00108_999;110.04612_66;128.05657_6;132.03232_422;138.0775_129;146.02289_393;172.0386_4;174.05425_999;230.11679_999&IonizedPrecursorMass=230.1162&MetFragDatabaseType=PubChem" target="_blank">Go to live demo</a>
+<a href="https://msbi.ipb-halle.de/MetFrag/landing.xhtml?FragmentPeakMatchAbsoluteMassDeviation=0.001&FragmentPeakMatchRelativeMassDeviation=5&DatabaseSearchRelativeMassDeviation=5&PeakList=57.06984_29;61.97913_88;68.02435_999;71.0604_228;79.00582_486;90.01058_17;96.05565_432;104.00108_999;110.04612_66;128.05657_6;132.03232_422;138.0775_129;146.02289_393;172.0386_4;174.05425_999;230.11679_999&IonizedPrecursorMass=230.1162&MetFragDatabaseType=PubChem" target="_blank">Go to live demo</a>
 
 ---
 
@@ -118,7 +118,7 @@ Visit http://www.envipat.eawag.ch/index.php and verify your molecular formula.
 
 <img src="media/image7.png" alt="Retrieve Candidates with formula" />
 
-<a href="http://msbi.ipb-halle.de/MetFragBeta/landing.xhtml?FragmentPeakMatchAbsoluteMassDeviation=0.001&FragmentPeakMatchRelativeMassDeviation=5&DatabaseSearchRelativeMassDeviation=5&PeakList=57.06984_29;61.97913_88;68.02435_999;71.0604_228;79.00582_486;90.01058_17;96.05565_432;104.00108_999;110.04612_66;128.05657_6;132.03232_422;138.0775_129;146.02289_393;172.0386_4;174.05425_999;230.11679_999&MetFragDatabaseType=PubChem&NeutralPrecursorMolecularFormula=C9H16ClN5" target="_blank">Go to live demo</a>
+<a href="https://msbi.ipb-halle.de/MetFrag/landing.xhtml?FragmentPeakMatchAbsoluteMassDeviation=0.001&FragmentPeakMatchRelativeMassDeviation=5&DatabaseSearchRelativeMassDeviation=5&PeakList=57.06984_29;61.97913_88;68.02435_999;71.0604_228;79.00582_486;90.01058_17;96.05565_432;104.00108_999;110.04612_66;128.05657_6;132.03232_422;138.0775_129;146.02289_393;172.0386_4;174.05425_999;230.11679_999&MetFragDatabaseType=PubChem&NeutralPrecursorMolecularFormula=C9H16ClN5" target="_blank">Go to live demo</a>
 
 ---
 
@@ -153,7 +153,7 @@ Q5: Is the molecular formula helpful here?
 
 ---
 
-- upload the data set to the MetFragWeb tool in the "Candidate Filter & Score Settings" tab using the "Retention Time" panel on the right side (direct download: <a href="https://raw.githubusercontent.com/c-ruttkies/MetFragTraining/master/handson_data/retentiontime_model/rt_XlogP.csv" download>rt_XlogP.csv</a>)
+- upload the data set to the MetFragWeb tool in the "Candidate Filter & Score Settings" tab using the "Retention Time" panel on the right side (direct download: <a href="https://raw.githubusercontent.com/ipb-halle/MetFragTraining/master/handson_data/retentiontime_model/rt_XlogP.csv" download>rt_XlogP.csv</a>)
 
 <img src="media/image9.png" alt="rt model setup" />
 
@@ -281,7 +281,7 @@ Q13: Discard the meta information scores to just use the results based on experi
 - MetFrag can be used on command line to process batches of annotation tasks -- its called MetFragCLI
 - parameter files for MetFragCLI can be created by web interface
 - get your copy of MetFragCLI from <br>
-<a href="http://c-ruttkies.github.io/MetFrag/" target="_blank">http://c-ruttkies.github.io/MetFrag/</a>
+<a href="http://ipb-halle.github.io/MetFrag/" target="_blank">http://ipb-halle.github.io/MetFrag/</a>
 - setup one example calculation to retrieve a set of valid parameter
 
 ---
