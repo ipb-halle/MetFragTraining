@@ -1,6 +1,6 @@
 body {
-    background-image: url(../../media/deNBI_Logo_rgb.jpg);
-    background-size: 20%;
+    background-image: url(../../media/deNBI_Logo_rgb.jpg), url(../../media/NFDI4Chem_logo.svg);
+    background-size: 20%, 25%;
     background-repeat: no-repeat;
-    background-position: 5% 98%;
+    background-position: 5% 98%, 35% 98%;
 }
