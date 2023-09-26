@@ -34,7 +34,7 @@ Please download the prepared data:
 - define database settings to retrieve candidates given the MS1 information:
 	1. use the precursor m/z value and type to calculate the neutral monoisotopic mass
 	2. check mass accuracy
-	3. select PubChem as compound database
+	3. select PubChemLite in the "Local Databases" section as compound database
 - start a candidate retrieval by clicking "Retrieve Candidates"
 
 ---
