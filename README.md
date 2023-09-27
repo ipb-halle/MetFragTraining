@@ -224,7 +224,7 @@ Q11: Investigate the high intensity fragments of the first ranked candidate. Are
 
 #### 5 a) Investigate MS/MS peaks in MassBank
 
-- visit MassBank EU (<a href="http://www.massbank.eu" target="_blank">http://www.massbank.eu</a>)
+- visit MassBank EU (<a href="https://massbank.eu" target="_blank">https://massbank.eu</a>)
 - select the "Peak Search" and add the most intense explained peaks
 
 ---
